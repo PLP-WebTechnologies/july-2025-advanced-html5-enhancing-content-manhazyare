@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+</head>
+    <body>
+        <header>
+            <h1>Welcome to My Web Page</h1>
+            <p>This page demonstrates lists, tables, media, and a validated HTML5 form.</p>
+        </header>
+        <section>
+            <h2>my favorite programming languages </h2>
+            <ol>
+                <li>python</li>
+                <li>javascript</li>
+                <li>java</li>  
+                <li>c++</li>
+                <li>ruby</li>
+                <li>go</li>
+                <li>rust</li>
+                <li>swift</li>
+            </ol>
+            <h2>my favorite web technologies</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>Angular</li>
+                <li>Vue.js</li>
+                <li>Bootstrap</li>
+            </ul>
+        </section>
+        <section>
+            <h2>My favorite books</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>The book Name</th>
+                        <th>The year published</th>
+                    <th>Author Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>To Kill a Mockingbird</td>
+                        <td>1960</td>
+                        <td>Harper Lee</td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td> A Brief History of Humankind</td>
+                        <td>2011</td>
+                        <td> Yuval Noah Harari</td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td>The Great Gatsby</td>
+                        <td>1925</td>
+                        <td> F. Scott Fitzgerald</td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td> The Alchemist</td>
+                        <td>1988</td>
+                        <td> Paulo Coelho</td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td>The Catcher in the Rye</td>
+                        <td>1951</td>
+                        <td> J.D. Salinger</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2>Media</h2>
+           <img src="https://images.pexels.com/photos/1062280/pexels-photo-1062280.jpeg/" alt="woman-in-green-shirt" width="500">
+           <br>
+            <p>Watch this video:</p>
+              <video width="320" height="240" controls>
+                 <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                 Your browser does not support the video tag.
+                </video>
+                <br>
+            <p>Listen to this audio:</p>
+            <audio controls>
+                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <br>
+            <p>Watch this YouTube video:</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/PhSql2aw2FI?si=T1lSOVnXFXoI3aS7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen></iframe>
+
+
+
+
+        </section>
+        <section>
+            <h2>Registration form</h2>
+            <form action="#" method="post" novalidate>
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <br>
+                    <label for="DOB">Date of Birth:</label>
+                    <input type="date" id="DOB" name="DOB" required>
+                </fieldset>
+                <fieldset>
+                    <legend>Account</legend>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                    <br>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </fieldset>
+                <fieldset>
+                    <lagend>Peferences</lagend>
+                    <label for="Country">Country:</label>
+                    <select id="Country" name="Country" required>
+                        <option value="">Select a country</option>
+                        <option value="USA">USA</option>
+                        <option value="Canada">Canada</option>
+                        <option value="UK">UK</option>
+                        <option value="Australia">Australia</option>
+                    </select>
+                     <br>
+                    <label>
+                        <input type="checkbox" name="subscribe" value="yes">
+                         Subscribe to newsletter
+                    </label>
+                      <br>
+                    <label>
+                        <label><input type="radio"name="gender"value="Male" required>Male</label>
+                        <label><input type="radio"name="gender"value="Female" required>Female</label>
+                    </label>
+                </fieldset>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </body>
+    <footer>
+        <p>&copy; 2023 My Web Page</p>
+</html>
+
